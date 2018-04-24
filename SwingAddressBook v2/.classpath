@@ -5,12 +5,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry including="**/*.java" kind="src" output="target/classes" path="SwingAddressBook/src">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" path="SwingAddressBook/src/main/java"/>
+	<classpathentry kind="src" path="SwingAddressBook/src/test/java"/>
 	<classpathentry kind="lib" path="SwingAddressBook/lib/mysql-connector-java-5.0.4-bin.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
